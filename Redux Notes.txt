@@ -1,0 +1,55 @@
+> REDUX-TOOLKIT - While Redux is powerful, it requires writing a lot of boilerplate code to set up the store, define actions, and write reducers.    
+  Redux Toolkit is an opinionated, batteries-included package that simplifies the Redux workflow. 
+  It provides utilities that streamline common Redux tasks, such as creating actions and reducers.
+
+> REDUX - Redux is a predictable state container for JavaScript apps. 
+  It follows the Flux architecture and provides a centralized store to manage application state. 
+  Redux uses actions and reducers to handle state changes. 
+  Actions are plain JavaScript objects that describe the type of change, 
+  while reducers specify how the state should be updated based on those actions.
+
+>Redux Toolkit provides a simplified and opinionated approach to state management compared to plain Redux. 
+ It reduces boilerplate code and offers additional features such as immutability handling and DevTools integration. 
+ However, if you have advanced state management requirements or an existing Redux codebase, plain Redux may still be a suitable choice. 
+ Consider your project's needs and complexity when deciding between Redux and Redux Toolkit, ensuring that you choose the right 
+ state management solution for your application.
+
+> It helps you write applications that behave consistently, run in different environments (client, server, and native), 
+  and are easy to test. On top of that, it provides a great developer experience, such as live code editing combined with a time traveling debugger.
+  You can use Redux together with React, or with any other view library. It is tiny (2kB, including dependencies), 
+  but has a large ecosystem of addons available.
+
+>Redux is a container where we can store our whole application data.
+- its like array
+-like home store room to store some elemets.
+- its only for frontend only
+- we called it as state management tool - state means app data here using redux we manage state.
+- we store all data one side we use data when we needed, if new data came we push data to store.
+- it does not belong to component state.
+- In react for component cummunication we use complex method, So we use Redux to avoid it we state management method which helps our app to perform well it is more efficiant.
+
+
+REDUX ARCHITECHTURE
++++++++++++++++++++
+
+
+
+                         
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

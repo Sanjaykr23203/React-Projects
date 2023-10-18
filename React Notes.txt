@@ -1,0 +1,91 @@
+What are custom hooks in React?
+Custom Hooks are a mechanism to reuse stateful logic, but every time you use a custom Hook, all state and effects inside of it are fully isolated. How does a custom Hook get isolated state? Each call to a Hook gets isolated state.
+
+Should I use context or custom Hook?
+
+While a hook with context seems to be a more robust solution in terms of performance and memory consumption, it doesn't mean that you should always go with this approach. There is place for both approaches, but it's important to understand the implications of each one of them.
+
+
+Why is useContext used in React?
+Consumer Components pass down the data but it is very cumbersome to write the long functional code to use this Context API. So useContext hook helps to make the code more readable, less verbose and removes the need to introduce Consumer Component. The useContext hook is the new addition in React 16.8
+
+Is useState a hook?
+useState is React Hook that allows you to add state to a functional component. It returns an array with two values: the current state and a function to update it. The Hook takes an initial state value as an argument and returns an updated state value whenever the setter function is called.
+
+Why is custom Hook used?
+Custom hooks allow us to encapsulate complex logic and functionality into a single function, making it easier to understand and reason about. By encapsulating this logic, we can create more modular and reusable code, which can improve readability and maintainability.
+
+Can custom hooks be async?
+Custom hook(useAsync)
+React hooks are a set of functions that can be used to create a component that is more flexible than the traditional component lifecycle. We can create a custom hook that will be used to handle all asynchronous data fetching and updating the state.
+
+What is JSX in React?
+What is JSX? JSX stands for JavaScript XML. JSX allows us to write HTML in React. JSX makes it easier to write and add HTML in React.
+
+What is lifecycle Hooks in React?
+It is a lifecycle method that runs or executes when the component is about to be removed or unmounted from the DOM. It is called only once during the lifecycle of a component. In fn component: React Hooks provide a great deal of flexibility when it comes to implementing lifecycle methods.
+
+What is lifecycle method in React?
+A component's lifecycle has three main phases: the Mounting Phase, the Updating Phase, and the Unmounting Phase. The Mounting Phase begins when a component is first created and inserted into the DOM. The Updating Phase occurs when a component's state or props change.
+
+What is lazy loading in React?
+Lazy loading helps to load the web page quickly and presents the limited content to the user that is needed for the interaction lazy loading can be more helpful in applications that have high-resolution images or data that alters the loading time of the application. Syntax: const MyComponent = React.
+
+What is the difference between useState and useContext?
+React Context API shares data across components, while useState Hook manages the state within a single component.
+
+Is useEffect asynchronous or synchronous?
+useEffect runs asynchronously after a render is painted to the screen, unblocking the browser paint process. So that looks like: We cause a render somehow (through the state, or the parent re-renders or context change). In our case by clicking on the Increment button.
+
+Why we use axios in React?
+Need of Axios in React: As we have discussed that Axios allows you to communicate with the APIs in your React project. The same tasks can also be performed by using AJAX, but Axios provide you more functionality and features and that helps you in building your application quickly.
+
+What are the limitations of useContext?
+Limitations of useContext
+This can lead to unnecessary re-renders and negatively impact performance, especially in large applications with frequent state updates. Developers need to implement their own performance optimizations, such as using React. memo to prevent unnecessary re-renders of child components.
+
+
+What is props in React?
+React Props
+Props stand for "Properties." They are read-only components. It is an object which stores the value of attributes of a tag and work similar to the HTML attributes. It gives a way to pass data from one component to other components. It is similar to function arguments.
+
+What is a div in React?
+The div element on the other hand is an HTML element with no semantic meaning but when used, will be added to the DOM as a node. React Fragment and div can both serve as parents for grouping children components in a valid JSX syntax.
+
+
+
+What is the difference between DOM and Vdom?
+DOM is a standard technology, while virtual DOM is only one implementation in the React framework. real dom: here any change updates the entire dom updating s slow aninefficientt virtual dom : any change only updates the relevant in the tree updating is fast and efficient.
+
+What is Babel used for in React?
+Babel is a JavaScript compiler that converts modern JavaScript code into a version compatible with all browsers. Babel enables React developers to use the latest JavaScript syntax in their components. Babel transpiles modern JavaScript for use in React components and all browsers.
+
+What is JSX and ES6?
+JSX stands for “JavaScript XML,” and it is a syntax extension to JavaScript based in ES6, the newest “version” of JavaScript. JSX allows you to write HTML in React by converting HTML into React components, helping you to more easily create user interfaces for your web applications.
+
+What is event in Reactjs?
+React Events - javatpoint
+An event is an action that could be triggered as a result of the user action or system generated event. For example, a mouse click, loading of a web page, pressing a key, window resizes, and other interactions are called events.
+
+What is constructor in React?
+The constructor is a method used to initialize an object's state in a class. It automatically called during the creation of an object in a class. The concept of a constructor is the same in React. The constructor in a React component is called before the component is mounted.
+
+A Debouncing Events in ReactJS will allow you to call a function that ensures that a time-consuming task does not fire so often. It’s a function that takes a function as a parameter and wraps that function in a closure and returns it so this new function displays the “wait for a bit” behaviour.
+
+What is the context API in React?
+Context API allows data to be passed through a component tree without having to pass props manually at every level. This makes it easier to share data between components.
+
+What are higher-order components in React?
+Higher-order components (HOCs) are a powerful feature of the React library. They allow you to reuse component logic across multiple components. In React, a higher-order component is a function that takes a component as an argument and returns a new component that wraps the original component.
+
+The useContext Hook provides function components access to the context value for a context object. It: Takes the context object (i.e., value returned from React. createContext ) as the one argument it accepts.
+
+What is lazy loading and why is it used?
+Lazy loading is a strategy to load components or elements only when needed. It's a way to shorten the length of the critical rendering path, which translates into reduced page load times.
+For example, if a web page has an image that the user has to scroll down to see, you can display a placeholder and lazy load the full image only when the user arrives to its location.
+Decrese the load timing and increase the performence of our app
+
+`` -> string litreals - we genrally use when we pass prams to an api
+
+
+Recursion is calling a function repeatedly within itself until a base condition is met (base case). Each time the recursive function calls itself, it takes a new argument.
